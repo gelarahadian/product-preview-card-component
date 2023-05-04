@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #f3eae3;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.container{
+    margin: auto;
+    background-color: white;
+    justify-content: space-between;
+    justify-items: center;
+    width: 600px;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-wrap: nowrap;
+}
+
+.gambar{
+    flex-basis: 1;
+    flex-shrink: 1;
+}
+
+.gambar div img{
+    width: 100%;
+    height: 100%;
+}
+
+.gambar div{
+    width: 300px;
+    height: 100%;
+}
+
+.info{
+    flex-basis: 1;
+    flex-shrink: 1;
+}
+
+.box{
+    padding: 30px;
+}
+
+.text{
+    font-weight: 200;
+    color: #888;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.title{ 
+    margin-bottom: 15px;
+}
+
+.description{
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.price{
+    color: #3d8168;
+}
+
+.price p {
+    font-size: 12px;
+    text-decoration: line-through;
+    color: #888;
+    font-weight: 300;
+    display: inline;
+    margin-left: 10px;
+}
+
+.button-cart{
+    text-decoration: none;
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #3d8168;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-weight: 700;
+}
